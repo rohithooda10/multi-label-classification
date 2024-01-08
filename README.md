@@ -1,4 +1,4 @@
-# Multi Label Classification - Documentation
+# Multi Label Classification
 
 ## Introduction
 
@@ -83,7 +83,7 @@ We had few choices, to use a model that can handle these long sequence such as B
 
 Then I just use BERT and let it truncate sequences at 512 words. It did give good results, but according to few researches, it was shown that just truncating last part of the sequence may cause loss of lot of information and context, hence I kept searching for better solution.
 
-Then I decided to go with a windowed approach, in this I give input to BERT in 512 words and then move window to next 512 words and do the same. All the outputs obtained from each window are averaged to get single output. This output is passed through classifier layer to get logits. This apporach gave best result.
+Then I decided to go with a windowed approach, in this I give input to BERT in 512 words and then move window to next 512 words and do the same. All the outputs obtained from each window are averaged to get single output. This output is passed through classifier layer to get logits. This apporach gave best result. But I had to make some sacrifices due to time and computation limitations and work with max length of 1500. This length covered around 75% of the sequences, which was good enough for our task.
 
 ## Some other decisions
 
