@@ -99,6 +99,15 @@ The model achieved satisfactory performance on the validation and test sets, giv
 
 The preprocessing steps effectively handled noise in the legal texts, and the window-based approach in the model addressed challenges related to long text lengths.
 
+## Compare Pretrained V Finetuned BERT
+In pretrained BERT, we just a classifier layer and trained that layer only while keeping BERT layers frozen. Here are some results -
+
+**Pretrained Accuracies**
+
+
+**Pretrained Training loss per epoch**
+
+
 ## Conclusion
 
 This documentation outlines the comprehensive steps taken to develop a legal text multilabel classification model. The implemented approaches, preprocessing steps, and model architecture aim to address specific challenges associated with legal texts.
