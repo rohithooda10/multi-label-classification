@@ -6,6 +6,9 @@ The goal of this project is to develop a multilabel legal text classification mo
 
 ### Dataset description
 We are using ecthr_b dataset from the Lex GLUE collection, which is designed for the task of classifying legal documents tailored for the European Court of Human Rights (ECHR).
+
+
+
 ### Features & Labels
 In the dataset specified above, we have just two features -
 #### text:
@@ -100,13 +103,23 @@ The model achieved satisfactory performance on the validation and test sets, giv
 The preprocessing steps effectively handled noise in the legal texts, and the window-based approach in the model addressed challenges related to long text lengths.
 
 ## Compare Pretrained V Finetuned BERT
+In finetuned, we finetune both the newly added classifier layer and the BERT weights as well. Here are some results -
+
+- Classification report
+
+- Finetuned accuracies
+
+- Finetuned training loss per epoch
+
 In pretrained BERT, we just a classifier layer and trained that layer only while keeping BERT layers frozen. Here are some results -
 
-**Pretrained Accuracies**
+- Pretrained Accuracies
+<img width="710" alt="pretrained accuracies" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/d12fb62e-80d1-452f-a5db-ea1bb1cf785c">
 
+- Pretrained Training loss per epoch
+<img width="710" alt="pretrained train loss" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/72b63ab6-a8a9-486a-aea5-f9e190cd982b">
 
-**Pretrained Training loss per epoch**
-
+- Classification report
 
 ## Conclusion
 
