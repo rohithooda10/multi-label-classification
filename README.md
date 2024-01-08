@@ -102,10 +102,11 @@ The preprocessing steps effectively handled noise in the legal texts, and the wi
 ## Compare Pretrained V Finetuned BERT
 In pretrained BERT, we just a classifier layer and trained that layer only while keeping BERT layers frozen. Here are some results -
 
-**Pretrained Accuracies**
+- Pretrained Accuracies
+<img width="710" alt="pretrained accuracies" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/d12fb62e-80d1-452f-a5db-ea1bb1cf785c">
 
-
-**Pretrained Training loss per epoch**
+- Pretrained Training loss per epoch
+<img width="710" alt="pretrained train loss" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/72b63ab6-a8a9-486a-aea5-f9e190cd982b">
 
 
 ## Conclusion
