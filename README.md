@@ -6,8 +6,13 @@ The goal of this project is to develop a multilabel legal text classification mo
 
 ### Dataset description
 We are using ecthr_b dataset from the Lex GLUE collection, which is designed for the task of classifying legal documents tailored for the European Court of Human Rights (ECHR).
+<img width="1267" alt="Screenshot 2024-01-09 at 1 51 57 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/1da0385c-db20-40f7-bdee-1131de9f327a">
 
+- Class distribution
+<img width="1010" alt="Screenshot 2024-01-09 at 1 49 37 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/90ced8d6-52aa-4475-a24c-4a5cddc1c9e9">
 
+- Text length distribution
+<img width="886" alt="Screenshot 2024-01-09 at 1 49 54 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/8e4a8ce3-7ff5-4f92-bc36-406140794414">
 
 ### Features & Labels
 In the dataset specified above, we have just two features -
@@ -106,10 +111,13 @@ The preprocessing steps effectively handled noise in the legal texts, and the wi
 In finetuned, we finetune both the newly added classifier layer and the BERT weights as well. Here are some results -
 
 - Classification report
+<img width="481" alt="Screenshot 2024-01-09 at 1 55 43 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/ad818464-a16e-48ea-8996-3e2405e1efb9">
 
 - Finetuned accuracies
+<img width="688" alt="Screenshot 2024-01-09 at 1 55 27 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/37203e0c-f874-445b-8f5b-60246f65df46">
 
 - Finetuned training loss per epoch
+<img width="688" alt="Screenshot 2024-01-09 at 1 55 19 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/da23fef4-5eec-468f-926d-662bfbb567c9">
 
 In pretrained BERT, we just a classifier layer and trained that layer only while keeping BERT layers frozen. Here are some results -
 
@@ -120,6 +128,10 @@ In pretrained BERT, we just a classifier layer and trained that layer only while
 <img width="710" alt="pretrained train loss" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/72b63ab6-a8a9-486a-aea5-f9e190cd982b">
 
 - Classification report
+<img width="481" alt="Screenshot 2024-01-09 at 1 56 23 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/52556719-156d-4a2a-bebb-464a49885ced">
+
+## Future scope/ Improvements
+Since we ran our model within a computation and time limited environment, we were restricted to only few experimentations. With more powerful machine, we can try out different learning rates, higher epochs, bigger batch sizes etc.
 
 ## Conclusion
 
