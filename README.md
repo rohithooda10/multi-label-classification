@@ -111,13 +111,16 @@ The preprocessing steps effectively handled noise in the legal texts, and the wi
 In finetuned, we finetune both the newly added classifier layer and the BERT weights as well. Here are some results -
 
 - Classification report
-<img width="481" alt="Screenshot 2024-01-09 at 1 55 43 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/ad818464-a16e-48ea-8996-3e2405e1efb9">
+<img width="483" alt="Screenshot 2024-01-09 at 11 10 48 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/7f114022-28d0-480a-9cd3-13f4eb8e9872">
+
 
 - Finetuned accuracies
-<img width="688" alt="Screenshot 2024-01-09 at 1 55 27 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/37203e0c-f874-445b-8f5b-60246f65df46">
+<img width="699" alt="Screenshot 2024-01-09 at 11 08 43 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/d7ef7b78-8a28-4505-8b65-4d757e70224c">
+
 
 - Finetuned training loss per epoch
-<img width="688" alt="Screenshot 2024-01-09 at 1 55 19 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/da23fef4-5eec-468f-926d-662bfbb567c9">
+<img width="699" alt="Screenshot 2024-01-09 at 11 08 36 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/b36fbd29-f176-40ca-9522-60730517fa77">
+
 
 In pretrained BERT, we just a classifier layer and trained that layer only while keeping BERT layers frozen. Here are some results -
 
