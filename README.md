@@ -130,6 +130,16 @@ In pretrained BERT, we just a classifier layer and trained that layer only while
 - Classification report
 <img width="481" alt="Screenshot 2024-01-09 at 1 56 23 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/52556719-156d-4a2a-bebb-464a49885ced">
 
+Comparison 
++-----------+-----------+------------+
+|   Metric  | Finetuned | Pretrained |
++-----------+-----------+------------+
+|  Accuracy |   0.553   |   0.163    |
+| Precision |   0.798   |   0.445    |
+|   Recall  |   0.744   |   0.207    |
+|  F1 Score |   0.770   |   0.283    |
++-----------+-----------+------------+
+
 ## Future scope/ Improvements
 Since we ran our model within a computation and time limited environment, we were restricted to only few experimentations. With more powerful machine, we can try out different learning rates, higher epochs, bigger batch sizes etc.
 
