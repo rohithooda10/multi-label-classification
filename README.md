@@ -146,6 +146,7 @@ Comparison
 <img width="1178" alt="Screenshot 2024-01-09 at 11 21 56 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/3567dea7-1411-44c2-a10c-fcb752a13893">
 
 Inference Output
+
 <img width="218" alt="Screenshot 2024-01-09 at 11 50 22 AM" src="https://github.com/rohithooda10/multi-label-classification/assets/109358642/a30dcd64-0754-4171-b265-3fbafb49a5b6">
 
 ## Future scope/ Improvements
