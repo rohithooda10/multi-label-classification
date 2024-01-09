@@ -1,5 +1,5 @@
 # Multi Label Classification
-
+(Trained models in Documentation)
 ## Introduction
 
 The goal of this project is to develop a multilabel legal text classification model for the European Court of Human Rights (ECHR) dataset. The dataset contains legal documents, and the task is to predict the articles of the European Convention on Human Rights allegedly violated by each case.
