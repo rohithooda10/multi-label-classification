@@ -1,5 +1,8 @@
 # Multi Label Classification
 (Trained models in Documentation)
+To run the code, simply open the notebook in Google colab and run all cells.
+[NOTE: To load and save the model, you will need to mount your google drive, command for this is added at the top.
+Mount your drive and keep the saved model at '/content/drive/My Drive/saved_model.pth'.]
 ## Introduction
 
 The goal of this project is to develop a multilabel legal text classification model for the European Court of Human Rights (ECHR) dataset. The dataset contains legal documents, and the task is to predict the articles of the European Convention on Human Rights allegedly violated by each case.
